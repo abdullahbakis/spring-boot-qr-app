@@ -1,1 +1,28 @@
-This repository contains a Spring Boot application that generates QR codes and stores them in a MySQL database. The application allows users to create new QR codes by entering a message and selecting a size, and displays a list of all generated QR codes with the option to delete them. The QR codes can be scanned and the message will be displayed. This project was developed as a learning exercise and demonstrates my skills in Spring Boot, MySQL, and QR code generation.
+# Spring Boot QR App
+This is a Spring Boot application that generates QR codes for a given text.
+
+## Technologies
+Spring Boot
+ZXing (Zebra Crossing)
+## Requirements
+Java 8+
+Maven
+## Setup
+
+Clone the repository
+
+git clone https://github.com/abdullahbakis/spring-boot-qr-app.git
+
+Install the dependencies
+
+cd spring-boot-qr-app
+mvn install
+
+Start the server
+
+mvn spring-boot:run
+Open the application in a browser at http://localhost:8080
+# Author
+Abdullah Bakış - abdullahbakis
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
